@@ -2,7 +2,7 @@ import { ProductService } from "../services/productService.js";
 const productService = new ProductService();
 productService.getProducts().then((products) => {
   const divProductsList = document.getElementById("productsList");
-  console.log("blip");
+  console.log("");
   for (const product of products) {
     console.log(product);
     const div = document.createElement("div");

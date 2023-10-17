@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReadHub | Shopping cart</title>
+    <link rel="stylesheet" type="text/css" href="style/cart.css">
+    <link rel="shortcut icon" href="style/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav class="anchor">
+            <a href="#"><img src="asset\logo-removebg-preview.png" alt="logo_bg_rm" class="logo_header"></a>
+            <nav class="nav_header">
+                <a href="home.html" class="txt_header">Home</a>
+                <a href="features.html" class="txt_header">Features</a>
+                <a href="support.html" class="txt_header">Support</a>
+                <a href="blog.html" class="txt_header">Blog</a>
+                <img src="asset\loupe.png" alt="loupe" class="img_header">
+                <a href="#"><img src="asset\cart.png" alt="cart" class="img_header"></a>
+                <a href="user.html" target="_blank"><img src="asset\user.png" alt="user" class="img_header"></a>
+            </nav>
+        </nav>
+    </header>
+
+    <div id="title_h1" class="title_h1">
+        <h1>Your cart has products : </h1>
+    </div>
+
+
+    <div class="shopping-cart">
+
+        <div class="column-labels">
+            <label class="product-image" style="text-align: center;">Image</label>
+            <label class="product-details" style="text-align: center;">Product</label>
+            <label class="product-price">Price</label>
+            <label class="product-quantity">Quantity</label>
+            <label class="product-removal">Remove</label>
+            <label class="product-line-price">Total</label>
+        </div>
+
+     
+
+       <div id="products">
+       
+       </div>
+        <div class="totals" style="font-family: Kaushan Script;">
+            <div class="totals-item">
+                <label>Subtotal</label>
+                <div class="totals-value" id="cart-subtotal">37.97</div>
+            </div>
+            <div class="totals-item">
+                <label>Tax (5%)</label>
+                <div class="totals-value" id="cart-tax">1.89</div>
+            </div>
+            <div class="totals-item">
+                <label>Shipping</label>
+                <div class="totals-value" id="cart-shipping">10.00</div>
+            </div>
+            <div class="totals-item totals-item-total">
+                <label>Grand Total</label>
+                <div class="totals-value" id="cart-total">49.86</div>
+            </div>
+        </div>
+
+        <a href="checkout.html"><button class="payement"> Checkout</button></a>
+
+    </div>
+
+    <script type="module" src="main.js"></script>
+
+
+</body>
+
+</html>
+
+</body>
+
+</html>
